@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.bg{
+  height: 100vh;
+  background:#000 url(images/city.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  position: relative;
+  background-position: bottom left;
+  overflow: hidden;
+  animation: magic 10s linear infinite;
+}
+
+#order{
+  font-size: 3.5rem;
+  margin-top: 80px;
+  margin-left: 450px;
+  font-family: 'Baloo Bhaina 2', cursive;
+  cursor: none;
+  color: #000;
+  
+}
+.car{
+  position: absolute;
+  left: 130px;
+  bottom: -60px;
+
+}
+@keyframes magic {
+  from{
+    background-position: bottom left;
+  }
+  to{
+    background-position: bottom right;
+  }
+}

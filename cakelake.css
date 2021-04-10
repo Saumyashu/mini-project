@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.bgimg{
+  background-image: url("images/cupcake.jpeg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 750px;
+}
+.fluid-container{
+  padding:2% 5% 3% 5%;
+}
+#brand{
+  font-size: 3rem;
+  margin-top: 15px;
+  font-family: 'Baloo Bhaina 2', cursive;
+  animation: yellow-to-blue 5s infinite linear;
+  transition: all 0.2s linear;
+  cursor: none;
+}
+
+#brand:hover{
+  text-shadow: 0 0 10px #00b3ff;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 5px;
+}
+#title a{
+  text-shadow: 2px 1px  5px black;
+}
+.headerset h1{
+  font-size: 2.5rem;
+  margin: 150px auto 0 15px;
+  line-height: 3.5rem;
+  text-shadow: 2px 1px  5px black;
+}
+.headerset input{
+  margin: 40px auto 0 15px;
+  color: white;
+  text-shadow: 2px 1px  5px black;
+  font-weight: 500;
+}
+.heading-about{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  margin-top: 20px;
+}
+.about{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: black;
+  word-spacing: 2px;
+  font-weight: 400;  font-size: 22px;
+}
+#button{
+  text-align: center;
+  margin-left: 620px;
+  color: black;
+
+}
+#customers{
+  text-align: center;
+  padding: 1% 5% 0;
+  margin-bottom: 10%;
+  background-color: #ffb900;
+  margin-top: 5%;
+
+}
+#customers:hover{
+  background-color: #ffa600;
+}
+.customr-details{
+  font-weight: normal;
+  font-size:25px;
+
+}
+.customer-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.my-image{
+  width: 10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card{
+  height: 400px;
+  width: 380px;
+  padding-top: 35px;
+  margin-top: 30px;
+}
+.icons{
+  width: 110px;
+  height: 100px;
+  text-align: center;
+  margin: auto 0 auto 130px;
+}
+.icon{
+  width: 180px;
+  height: 100px;
+  text-align: center;
+  margin: auto 0 auto 100px;
+
+}
+.card-text{
+  text-align: center;
+}
+#card2{
+  background-color: rgba(4, 252, 11,0.6);
+}
+#card3{
+  background-color: rgb(3, 252, 236);
+}
+#card1{
+  background-color: rgb(252, 227, 3);
+}
+#card2:hover{
+  background-color: rgba(4, 252, 11,0.3);
+}
+#card3:hover{
+  background-color: rgba(3, 252, 236,0.5);
+}
+#card1:hover{
+  background-color: rgba(252, 227, 3,0.5);
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7%  1%;
+}
+#footer p{
+  color: grey;
+}
+.fa-twitter{
+  margin-right: 14px;
+  margin-bottom: 18px;
+}
+.fa-facebook-f{
+  margin-right: 14px;
+  margin-bottom: 18px;
+
+}
+.fa-instagram{
+  margin-right: 14px;
+  margin-bottom: 18px;
+
+}
+.fa-envelope{
+  margin-right: 14px;
+  margin-bottom: 18px;
+
+}
+#sign-btn{
+
+  color: white;
+  text-shadow: 2px 1px  5px black;
+  font-weight: 500;
+  margin-left:45%;
+  padding: 10px 25px 10px 25px;
+}
+
+@keyframes yellow-to-blue {
+  0%{color:#ffb900; }
+  50%{color: rgb(3, 252, 236);}
+  100%{color: rgb(252, 227, 3);}
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .card{
+    margin-left: 22%;
+  }
+  #button{
+    margin-left:40%;
+  }
+
+@media (min-width:760px) {
+  .card{
+    margin:20px auto 0 auto;
+  }
+  #sign-btn{
+    margin-left: 48%;
+  }
+}
+@media (min-width:468px) {
+  #sign-btn{
+    margin-left: 42%;
+  }
+}

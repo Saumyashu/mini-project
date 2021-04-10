@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.conatiner{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.heading{
+    background-color: #ffffaa;
+    font-weight: 500;
+    
+}
+a{
+    float: right;
+}
+.btn{
+    margin: 10px;
+}
